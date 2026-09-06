@@ -21,9 +21,9 @@
 
 
 include:
-  - board: nice_nano
+  - board: "nice_nano//zmk"
     shield: macropad
-  - board: nice_nano
+  - board: "nice_nano//zmk"
     shield: settings_reset
 
 
