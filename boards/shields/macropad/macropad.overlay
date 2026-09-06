@@ -28,7 +28,7 @@
         a-gpios = <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 
-        steps = <20>;
+        steps = <80>;
 
         status = "okay";
     };
