@@ -18,9 +18,13 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+
+
 include:
-  - board: nice_nano//zmk
+  - board: nice_nano
     shield: macropad
+  - board: nice_nano
+    shield: settings_reset
 
 
 
