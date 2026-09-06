@@ -25,9 +25,6 @@ include:
     shield: macropad
     artifact-name: macropad_nice_nano
 
-  - board: "nice_nano//zmk"
-    shield: settings_reset
-    artifact-name: reset_nice_nano
 
 
 
