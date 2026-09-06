@@ -21,7 +21,7 @@
 
 
 include:
-  - board: nice_nano//zmk
+  - board: "nice_nano//zmk"
     shield: macropad
     artifact-name: macropad_nice_nano2
 
