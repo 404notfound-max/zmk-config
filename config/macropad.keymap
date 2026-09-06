@@ -1,0 +1,26 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+&encoder0 {
+    status = "okay";
+};
+
+&sensors {
+    triggers-per-rotation = <20>;
+};
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp A  &kp B  &kp C  &kp D
+                &kp E  &kp F  &kp G  &kp H
+                &kp I  &kp J  &kp K  &kp L
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+    };
+};
