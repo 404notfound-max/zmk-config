@@ -28,7 +28,8 @@
             bindings = <
                 &tog 1  &kp F15  &kp F14  &kp F13
                 &kp F19  &kp F18  &kp F17  &kp F16
-                &kp F23  &kp F22  &kp F21  &kp F20             
+                &kp F23  &kp F22  &kp F21  &kp F20    
+            >;         
         }
 
 
